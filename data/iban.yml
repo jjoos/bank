@@ -383,6 +383,10 @@ sn: # Senegal
 #  regexp: '[A-Z]\d{23}'
   regexp: '[A-Z]\d{23}'
 
+ua: # Ukraine
+  length: 29
+  regexp: '(?<bank_identifier>[0-9]{6})(?<account_number>\d{19})'
+
 # not quite sure about these:
 
 # cg: # Republic Congo
@@ -401,6 +405,3 @@ sn: # Senegal
 #   length: 27
 # #  regexp: ''
 #
-# ua: # Ukraine
-#  length: 29
-##  regexp: ''
